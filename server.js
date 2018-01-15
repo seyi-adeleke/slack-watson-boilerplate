@@ -9,4 +9,4 @@ app.listen(port,  () => {
     console.info(`Started Express server on port ${port}`);
 });
 
-require('./chatbots').slackBot();
+require('./lib/slack').slackBot();
